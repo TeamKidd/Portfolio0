@@ -1,0 +1,22 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+:root{
+    --base-color : #40514E;
+    --highlight-color : #E4F9F5;
+    --mid-shade-0 : #30E3CA;
+    --mid-shade-1 : #11999E;
+
+}
+body{
+    margin:0;
+    padding:0;
+    background-color: var(--base-color);
+}
+.hello-title{
+    display:flex;
+    justify-content: center;
+    font-size: 3em;
+    color: var(--highlight-color);
+}
